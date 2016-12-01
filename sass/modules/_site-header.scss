@@ -1,0 +1,52 @@
+// Theme color variables
+$frame-background-color: $bravo-gray;
+$header-height: 40;
+
+
+// Module Sass
+.site-header {
+  @extend %transform-uppercase;
+  position: relative;
+  z-index: 1001;
+  background: {
+    color: $frame-background-color;
+    image: url("#{$imgDir}logo.svg");
+    repeat:  no-repeat;
+    size: em(120);
+    position: em(5) em(5);
+  }
+  width: 100%;
+  height: em($header-height);
+  color: $white;
+  .title {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    line-height: em($header-height);
+  }
+  .utility {
+    float: right;
+    a {
+      display: inline-block;
+      line-height: em($header-height);
+      padding: 0 em(10) 0 0;
+      margin-right: em(20);
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+.logo {
+  float: left;
+  width: 25%;
+  height: em(30);
+  margin: 0 auto;
+  a {
+    @extend %hidden-text;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}

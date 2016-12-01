@@ -1,0 +1,63 @@
+// Stipe comes with a series of pre-designed buttons that are easily useable and configutable
+// gloss-default, shiny-default, flat-default and three-dee
+// -----------------------------------------------------------
+
+// Default values - edit in `_config.scss` file
+// -----------------------------------------------------------
+$button-color:  $white !default;
+$button-text-color: $primary-text !default;
+$button-line-height: 32 !default;
+$button-border-radius: 3 !default;
+$button-padding: 20 !default;
+$button-margin: 10 !default;
+$button-font-size: 18 !default;
+$button-weight: bold !default;
+$button-shadow-color: transparentize($alpha-gray, 0.5) !default;
+$button-mobile-width: 100% !default;
+
+// button-default
+// -----------------------------------------------------------
+@mixin button-default ($text-color: $button-text-color, $line-height: $button-line-height, $border-radius: $button-border-radius, $padding: $button-padding, $font-size: $button-font-size, $weight: $button-weight, $margin: $button-margin){
+  color: $text-color;
+  line-height: em($line-height);
+  border-radius: em($border-radius);
+  padding: 0 em($padding);
+  font-size: em($font-size);
+  font-weight: $weight;
+  margin-bottom: em($margin);
+  &[disabled] {
+    color: transparentize($text-color, 0.4);
+  }
+}
+
+// flat-default
+// -----------------------------------------------------------
+@mixin button-flat ($color: $button-color){
+  $base-color: $color;
+  $grad-1: darken($base-color, 8%);
+  $dark-color: darken($base-color, 20%);
+  $highlight-color: lighten($base-color, 50%);
+
+  background-color: $base-color;
+  border: 1px solid $dark-color;
+  box-shadow: 0 1px 1px -1px $button-shadow-color;
+  text-transform: uppercase;
+
+  @include button-default;
+
+  &:hover {
+    background-color: darken($base-color, 10%);
+  }
+
+  &[disabled], &.disabled {
+    background-color: darken($base-color, 10%);
+    &:hover {
+      background-color: darken($base-color, 10%);
+      cursor: not-allowed;
+    }
+  }
+
+  @media #{$mobile} {
+    width: $button-mobile-width;
+  }
+}

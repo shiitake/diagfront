@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body, html {
+  height: 100%;
+}
+
+.site-section {
+  width: calc(100% - 80px);
+  height: calc(100% - 40px);
+  float: left;
+  &.fixed {
+    margin-left: em($primary-nav-width);
+  }
+  > article {
+    padding: 0 em($default-article-padding);
+    padding-bottom: 200px;
+  }
+}

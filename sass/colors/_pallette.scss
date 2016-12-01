@@ -1,0 +1,183 @@
+$alpha-color:$alpha-primary;
+$alpha-scale-bravo:scale-color($alpha-color,$lightness:10%);
+$alpha-scale-charlie:scale-color($alpha-color,$lightness:20%);
+$alpha-scale-delta:scale-color($alpha-color,$lightness:30%);
+$alpha-scale-echo:scale-color($alpha-color,$lightness:40%);
+$alpha-scale-fox:scale-color($alpha-color,$lightness:50%);
+$alpha-scale-golf:scale-color($alpha-color,$lightness:60%);
+$alpha-scale-hotel:scale-color($alpha-color,$lightness:70%);
+$alpha-scale-india:scale-color($alpha-color,$lightness:80%);
+$alpha-scale-juliet:scale-color($alpha-color,$lightness:90%);
+
+$alpha-tint-bravo:tint($alpha-color, 10%);
+$alpha-tint-charlie:tint($alpha-color, 20%);
+$alpha-tint-delta:tint($alpha-color, 30%);
+$alpha-tint-echo:tint($alpha-color, 40%);
+$alpha-tint-fox:tint($alpha-color, 50%);
+$alpha-tint-golf:tint($alpha-color, 60%);
+$alpha-tint-hotel:tint($alpha-color, 70%);
+$alpha-tint-india:tint($alpha-color, 80%);
+$alpha-tint-juliet:tint($alpha-color, 90%);
+
+$alpha-shade-bravo:shade($alpha-color, 10%);
+$alpha-shade-charlie:shade($alpha-color, 20%);
+$alpha-shade-delta:shade($alpha-color, 30%);
+$alpha-shade-echo:shade($alpha-color, 40%);
+$alpha-shade-fox:shade($alpha-color, 50%);
+$alpha-shade-golf:shade($alpha-color, 60%);
+$alpha-shade-hotel:shade($alpha-color, 70%);
+$alpha-shade-india:shade($alpha-color, 80%);
+$alpha-shade-juliet:shade($alpha-color, 90%);
+
+
+
+$bravo-color:$bravo-primary;
+$bravo-scale-bravo:scale-color($bravo-color,$lightness:10%);
+$bravo-scale-charlie:scale-color($bravo-color,$lightness:20%);
+$bravo-scale-delta:scale-color($bravo-color,$lightness:30%);
+$bravo-scale-echo:scale-color($bravo-color,$lightness:40%);
+$bravo-scale-fox:scale-color($bravo-color,$lightness:50%);
+$bravo-scale-golf:scale-color($bravo-color,$lightness:60%);
+$bravo-scale-hotel:scale-color($bravo-color,$lightness:70%);
+$bravo-scale-india:scale-color($bravo-color,$lightness:80%);
+$bravo-scale-juliet:scale-color($bravo-color,$lightness:90%);
+
+$bravo-tint-bravo:tint($bravo-color, 10%);
+$bravo-tint-charlie:tint($bravo-color, 20%);
+$bravo-tint-delta:tint($bravo-color, 30%);
+$bravo-tint-echo:tint($bravo-color, 40%);
+$bravo-tint-fox:tint($bravo-color, 50%);
+$bravo-tint-golf:tint($bravo-color, 60%);
+$bravo-tint-hotel:tint($bravo-color, 70%);
+$bravo-tint-india:tint($bravo-color, 80%);
+$bravo-tint-juliet:tint($bravo-color, 90%);
+
+$bravo-shade-bravo:shade($bravo-color, 10%);
+$bravo-shade-charlie:shade($bravo-color, 20%);
+$bravo-shade-delta:shade($bravo-color, 30%);
+$bravo-shade-echo:shade($bravo-color, 40%);
+$bravo-shade-fox:shade($bravo-color, 50%);
+$bravo-shade-golf:shade($bravo-color, 60%);
+$bravo-shade-hotel:shade($bravo-color, 70%);
+$bravo-shade-india:shade($bravo-color, 80%);
+$bravo-shade-juliet:shade($bravo-color, 90%);
+
+
+
+$charlie-color:$charlie-primary;
+$charlie-scale-bravo:scale-color($charlie-color,$lightness:10%);
+$charlie-scale-charlie:scale-color($charlie-color,$lightness:20%);
+$charlie-scale-delta:scale-color($charlie-color,$lightness:30%);
+$charlie-scale-echo:scale-color($charlie-color,$lightness:40%);
+$charlie-scale-fox:scale-color($charlie-color,$lightness:50%);
+$charlie-scale-golf:scale-color($charlie-color,$lightness:60%);
+$charlie-scale-hotel:scale-color($charlie-color,$lightness:70%);
+$charlie-scale-india:scale-color($charlie-color,$lightness:80%);
+$charlie-scale-juliet:scale-color($charlie-color,$lightness:90%);
+
+$charlie-tint-bravo:tint($charlie-color, 10%);
+$charlie-tint-charlie:tint($charlie-color, 20%);
+$charlie-tint-delta:tint($charlie-color, 30%);
+$charlie-tint-echo:tint($charlie-color, 40%);
+$charlie-tint-fox:tint($charlie-color, 50%);
+$charlie-tint-golf:tint($charlie-color, 60%);
+$charlie-tint-hotel:tint($charlie-color, 70%);
+$charlie-tint-india:tint($charlie-color, 80%);
+$charlie-tint-juliet:tint($charlie-color, 90%);
+
+$charlie-shade-bravo:shade($charlie-color, 10%);
+$charlie-shade-charlie:shade($charlie-color, 20%);
+$charlie-shade-delta:shade($charlie-color, 30%);
+$charlie-shade-echo:shade($charlie-color, 40%);
+$charlie-shade-fox:shade($charlie-color, 50%);
+$charlie-shade-golf:shade($charlie-color, 60%);
+$charlie-shade-hotel:shade($charlie-color, 70%);
+$charlie-shade-india:shade($charlie-color, 80%);
+$charlie-shade-juliet:shade($charlie-color, 90%);
+
+
+
+$delta-color:$delta-primary;
+$delta-scale-bravo:scale-color($delta-color,$lightness:10%);
+$delta-scale-charlie:scale-color($delta-color,$lightness:20%);
+$delta-scale-delta:scale-color($delta-color,$lightness:30%);
+$delta-scale-echo:scale-color($delta-color,$lightness:40%);
+$delta-scale-fox:scale-color($delta-color,$lightness:50%);
+$delta-scale-golf:scale-color($delta-color,$lightness:60%);
+$delta-scale-hotel:scale-color($delta-color,$lightness:70%);
+$delta-scale-india:scale-color($delta-color,$lightness:80%);
+$delta-scale-juliet:scale-color($delta-color,$lightness:90%);
+
+$delta-tint-bravo:tint($delta-color, 10%);
+$delta-tint-charlie:tint($delta-color, 20%);
+$delta-tint-delta:tint($delta-color, 30%);
+$delta-tint-echo:tint($delta-color, 40%);
+$delta-tint-fox:tint($delta-color, 50%);
+$delta-tint-golf:tint($delta-color, 60%);
+$delta-tint-hotel:tint($delta-color, 70%);
+$delta-tint-india:tint($delta-color, 80%);
+$delta-tint-juliet:tint($delta-color, 90%);
+
+$delta-shade-bravo:shade($delta-color, 10%);
+$delta-shade-charlie:shade($delta-color, 20%);
+$delta-shade-delta:shade($delta-color, 30%);
+$delta-shade-echo:shade($delta-color, 40%);
+$delta-shade-fox:shade($delta-color, 50%);
+$delta-shade-golf:shade($delta-color, 60%);
+$delta-shade-hotel:shade($delta-color, 70%);
+$delta-shade-india:shade($delta-color, 80%);
+$delta-shade-juliet:shade($delta-color, 90%);
+
+
+
+$echo-color:$echo-primary;
+$echo-scale-bravo:scale-color($echo-color,$lightness:10%);
+$echo-scale-charlie:scale-color($echo-color,$lightness:20%);
+$echo-scale-delta:scale-color($echo-color,$lightness:30%);
+$echo-scale-echo:scale-color($echo-color,$lightness:40%);
+$echo-scale-fox:scale-color($echo-color,$lightness:50%);
+$echo-scale-golf:scale-color($echo-color,$lightness:60%);
+$echo-scale-hotel:scale-color($echo-color,$lightness:70%);
+$echo-scale-india:scale-color($echo-color,$lightness:80%);
+$echo-scale-juliet:scale-color($echo-color,$lightness:90%);
+
+$echo-tint-bravo:tint($echo-color, 10%);
+$echo-tint-charlie:tint($echo-color, 20%);
+$echo-tint-delta:tint($echo-color, 30%);
+$echo-tint-echo:tint($echo-color, 40%);
+$echo-tint-fox:tint($echo-color, 50%);
+$echo-tint-golf:tint($echo-color, 60%);
+$echo-tint-hotel:tint($echo-color, 70%);
+$echo-tint-india:tint($echo-color, 80%);
+$echo-tint-juliet:tint($echo-color, 90%);
+
+$echo-shade-bravo:shade($echo-color, 10%);
+$echo-shade-charlie:shade($echo-color, 20%);
+$echo-shade-delta:shade($echo-color, 30%);
+$echo-shade-echo:shade($echo-color, 40%);
+$echo-shade-fox:shade($echo-color, 50%);
+$echo-shade-golf:shade($echo-color, 60%);
+$echo-shade-hotel:shade($echo-color, 70%);
+$echo-shade-india:shade($echo-color, 80%);
+$echo-shade-juliet:shade($echo-color, 90%);
+
+
+
+$bravo-gray:scale-color($alpha-gray, $lightness: 10%);
+$charlie-gray:scale-color($alpha-gray, $lightness: 20%);
+$delta-gray:scale-color($alpha-gray, $lightness: 30%);
+$echo-gray:scale-color($alpha-gray, $lightness: 40%);
+$fox-gray:scale-color($alpha-gray, $lightness: 50%);
+$golf-gray:scale-color($alpha-gray, $lightness: 60%);
+$hotel-gray:scale-color($alpha-gray, $lightness: 70%);
+$india-gray:scale-color($alpha-gray, $lightness: 80%);
+
+// HACK - run this in SassMeister to get the hex values
+// $colors: (bravo, $bravo-gray) (charlie, $charlie-gray) (delta, $delta-gray) (echo, $echo-gray)
+//   (fox, $fox-gray) (golf, $golf-gray) (hotel, $hotel-gray) (india, $india-gray);
+
+// @each $color in $colors {
+//   .#{nth($color, 1)}-gray {
+//     color: nth($color, 2);
+//   }
+// }

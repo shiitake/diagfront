@@ -1,0 +1,155 @@
+// The role of the config sass file is two fold. Adjust !defaults as set in lower level modules
+// and to set theme variables.
+
+// Typically, commented out variables signify a !default setting at a
+// lower level module.
+
+
+
+// CSS3 defaults
+// *-------------------------------------------------------------------------------
+// $default-box-sizing: border-box;
+
+
+/////// Typography configuration
+// *-------------------------------------------------------------------------------
+$font-size: 13;
+
+$heading-1: 35;
+$heading-2: 28;
+$heading-3: 18;
+$heading-4: 12;
+$heading-5: 12;
+$heading-6: 12;
+
+$line: $font-size * 1.5;
+$small-point-size: 11;
+$large-point-size: 14;
+
+$primary-font-family: #{"Segoe UI", Frutiger, "Frutiger Linotype", "Gill Sans", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;};
+$secondary-font-family: #{"Helvetica Neue", Arial, sans-serif};
+$heading-font-family: #{"Segoe UI", Frutiger, "Frutiger Linotype", "Gill Sans", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;};
+
+$list: '\e601';
+$star: '\e600';
+$file-alt: '\e602';
+$ok: '\e603';
+$remove: '\e604';
+$release: '\e605';
+$gear: '\e606';
+$search: '\e607';
+$edit: '\e608';
+$save: '\e609';
+
+
+/////// Default webfont directory
+// *-------------------------------------------------------------------------------
+$fontDir: "/fonts/";
+
+/////// Default image directory
+// *-------------------------------------------------------------------------------
+$imgDir: "/images/";
+
+/////// OOCSS generic base colors
+// *-------------------------------------------------------------------------------
+$alpha-primary:   #FF1D25;        // red
+$bravo-primary:   #7AC943;        // green
+$charlie-primary: #fffedf;        // yellow
+$delta-primary:   #1FB8F5;        // blue
+$echo-primary:    #FF6625;        // accent
+
+$alpha-gray:      #363636;        //black
+
+/////// Color math
+// *-------------------------------------------------------------------------------
+@import "colors/manifest";
+
+
+/////// Semantic variables
+// *-------------------------------------------------------------------------------
+// abstract 'white' value to easily applied to semantic class objects
+$white:                                #fff;
+
+// primary header font color
+$primary-header-color:                 $alpha-gray;
+
+// default heading font weight
+$heading-font-weight:                  normal;
+
+// primary font color for the app
+$primary-text:                         $alpha-gray;
+
+// default `href` link color
+$href-color:                           $echo-color;
+
+// default shadow colors
+$shadow-color:                         fade-out($alpha-color, 0.5);
+
+// default border color
+$border-color:                         $alpha-color;
+
+// Global use mute gray background color
+$mute-background:                      scale-color($india-gray, $lightness: 80%);
+
+
+
+/////// HTML 5 feature colors
+// *-------------------------------------------------------------------------------
+// used with the `ins` tag
+// http://www.w3schools.com/tags/tag-ins.asp
+$ins-color:                            $charlie-color;
+
+// used with the `mark` tag
+// http://www.w3schools.com/html5/tag-mark.asp
+$mark-color:                           $charlie-color;
+
+// webkit tap highlight color
+$webkit-tap-hightlight:                $delta-color;
+
+// overrides the default content selection color in the browser
+$selection-color:                      $charlie-color;
+$selection-text-color:                 $primary-text;
+
+
+/////// button default
+// *-------------------------------------------------------------------------------
+// $button-color:  $white;
+// $button-text-color: $primary-text;
+// $button-line-height: 32;
+// $button-border-radius: 3;
+// $button-margin: 10;
+$button-padding: 10;
+$button-font-size: 12;
+$button-weight: normal;
+$button-shadow-color: transparentize($alpha-gray, 0.2);
+// $button-mobile-width: 100%;
+
+
+
+/////// Default layout styles
+// *-------------------------------------------------------------------------------
+$default-article-padding: 40;
+
+
+
+/////// Form configurations
+// *-------------------------------------------------------------------------------
+$form-border-color: $hotel-gray;
+$form-text-color: $primary-text;
+
+
+
+/////// Primary Nav configurations
+// *-------------------------------------------------------------------------------
+$primary-nav-width: 80;
+
+
+/////// @media breakpoint defaults
+// *-------------------------------------------------------------------------------
+$tablet:                    "screen and (max-width: 64em)";
+$tablet-portrait:           "screen and (max-width: 50em) and (orientation: portrait)";
+$tablet-landscape:          "screen and (max-width: 50em) and (orientation: landscape)";
+
+$mobile:                    "screen and (max-width: 30em)";
+$mobile-portrait:           "screen and (max-width: 30em) and (orientation : portrait)";
+$mobile-landscape:          "screen and (max-width: 30em) and (orientation : landscape)";

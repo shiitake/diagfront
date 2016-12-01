@@ -1,0 +1,63 @@
+// Example markup
+// <nav class="primary-nav">
+//   <a href="#" rel="releases" class="is-active">releases</a>
+//   <a href="#" rel="features">features</a>
+//   <a href="#" rel="docs" data-notification="3">docs</a>
+//   <a href="#" rel="admin">admin</a>
+// </nav>
+
+
+// Module Sass
+// ------------------------------------------------------------
+.primary-nav {
+  float: left;
+  width: em($primary-nav-width);
+  height: 100%;
+  background-color: $frame-background-color;
+  &.fixed {
+    @extend %fixed;
+  }
+  a {
+    @extend %transform-uppercase;
+    position: relative;
+    display: block;
+    font-size: em($small-point-size);
+    padding-top: em(50);
+    padding-bottom: em(10);
+    text-align: center;
+    color: $white;
+    width: 100%;
+    &:before {
+      position: absolute;
+      top: em(10);
+      left: calc(50% - 0.55em);
+      right: calc(50% - 0.55em);
+      font-size: 2em;
+    }
+    &.is-active, &:hover {
+      background-color: $delta-color;
+    }
+  }
+  [rel="releases"] {
+    @include icon($release, false);
+  }
+  [rel="features"] {
+    @include icon($star, false);
+  }
+    &:before {
+    }
+  [rel="docs"] {
+    @include icon($file-alt, false);
+    &:before {
+    }
+  }
+  [rel="admin"] {
+    @include icon($gear, false);
+  }
+  [data-notification] {
+    &:after {
+      top: em(10);
+      right: em(10);
+    }
+  }
+}
