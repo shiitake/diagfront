@@ -1,0 +1,50 @@
+[
+    {
+        "name": "General Performance",
+        "value": "GeneralPerformance"
+    },
+    {
+        "name": "Light Performance",
+        "value": "LightPerformance"
+    },
+    {
+        "name": "Detailed Peformance",
+        "value": "DetailedPerformance"
+    },
+    {
+        "name": "Query Peformance",
+        "value": "QueryPerformance"
+    },
+    {
+        "name": "Replay",
+        "value": "Replay"
+    },
+    {
+        "name": "OOM Memory Grant Issues",
+        "value": "OOM"
+    },
+    {
+        "name": "AlwaysOn Basic Info",
+        "value": "AlwaysOn"
+    },
+    {
+        "name": "Azure Virtual Machine",
+        "value": "AzureVM"
+    },
+    {
+        "name": "Column Store",
+        "value": "ColumnStore"
+    },
+    {
+        "name": "In-Memory OLTP",
+        "value": "InMemoryOLTP"
+    },
+    {
+        "name": "StretchDB",
+        "value": "StretchDB"
+    },
+    {
+        "name": "PolyBase",
+        "value": "PolyBase"
+    }
+]

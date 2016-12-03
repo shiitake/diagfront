@@ -1,140 +1,118 @@
-doctype html
-html
-	head
-		meta(charset='utf-8')
-		meta(http-equiv='X-UA-Compatible', content='IE=edge')
-		title This is a project title
-		meta(name='description', content='My new project description')
-		meta(name='viewport', content='width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0')
-		meta(name='apple-mobile-web-app-capable', content='yes')
-		meta(name='apple-mobile-web-app-status-bar-style', content='black-translucent')
-		link(rel='stylesheet', href='stylesheets/application.css')
-		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
-		link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous")
-		script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous")
-- var scenarios = [{'name': 'General Performance', 'value': 'GeneralPerformance'},{'name': 'Light Performance', 'value': 'LightPerformance'},{'name': 'Detailed Peformance', 'value': 'DetailedPerformance'},{'name': 'Query Peformance', 'value': 'QueryPerformance'},{'name': 'Replay', 'value': 'Replay'},{'name': 'OOM Memory Grant Issues','value': 'OOM'},{'name': 'AlwaysOn Basic Info', 'value': 'AlwaysOn'},{'name': 'Azure Virtual Machine', 'value': 'AzureVM'},{'name': 'Column Store', 'value': 'ColumnStore'},{'name': 'In-Memory OLTP', 'value': 'InMemoryOLTP'},{'name': 'StretchDB', 'value': 'StretchDB'},{'name': 'PolyBase','value': 'PolyBase'}]
-- var xevents = [{"name": "General Performance", "value": "GeneralPerformance"}]
-- var perfmon = []
-- var customer = []
+extends layout
 
-	body
-		.container
-			.row
-				div(class='col-xs-3 pull-left')
-					.row
-						div(class='panel panel-default')
-							.panel-heading
-								h2(class='panel-title') Machine Name
-							.panel-body
-								input(type='text' id='machinename')
-					.row
-						div(class='panel panel-default')
-							.panel-heading
-								h2(class='panel-title') Instance Name
-							.panel-body
-								input(type='text' id='instancename')
-					.row
-						div(class='panel panel-default')
-							.panel-heading
-								h2(class='panel-title') Feature
-							.panel-body
-								.radio
-									label 
-										input(type='radio' name='FeatureOptions' id='AnalysisServiceOption' value='AnalysisService') 
-										| Analaysis Service
-								.radio
-									label
-										input(type='radio' name='FeatureOptions' id='SqlEngineOption' value='SqlEngine' checked)
-										|  SQL Engine
-					.row
-						div(class='panel panel-default')
-							.panel-heading
-								h2(class='panel-title') Platform
-							.panel-body
-								.radio
-									label
-										input(type='radio' name='PlatformOptions' id='x86Option' value='x86')
-										|  x86
-								.radio
-									label
-										input(type='radio' name='PlatformOptions' id='x64Option' value='x64' checked)
-										|  x64
-					.row
-						div(class='panel panel-default')
-							.panel-heading
-								h2(class='panel-title') Version
-							.panel-body
-								.radio
-									label
-										input(type='radio' name='VersionOptions' id='Sql2008Option' value='Sql2008')
-										|  SQL 2008
-								.radio
-									label
-										input(type='radio' name='VersionOptions' id='Sql2008R2Option' value='Sql2008R2')
-										|  SQL 2008 R2
-								.radio
-									label
-										input(type='radio' name='VersionOptions' id='Sql2012Option' value='Sql2012')
-										|  SQL 2012
-								.radio
-									label
-										input(type='radio' name='VersionOptions' id='Sql2014Option' value='Sql2014')
-										|  SQL 2014
-								.radio
-									label
-										input(type='radio' name='VersionOptions' id='Sql2016Option' value='Sql2016' checked)
-										|  SQL 2016			
-				div(class='col-xs-3')
+block content
+	.container
+		.row
+			div(class='col-xs-3 pull-left')
+				.row
 					div(class='panel panel-default')
-								.panel-heading
-									h2(class='panel-title') Scenario
-								.panel-body
-									each val in scenarios
-										.checkbox
-											label
-												input(type='checkbox' name='ScenarioOptions' id=val.value value=val.value)
-												| #{val.name}
+						.panel-heading
+							h2(class='panel-title') Machine Name
+						.panel-body
+							input(type='text' id='machinename')
+				.row
+					div(class='panel panel-default')
+						.panel-heading
+							h2(class='panel-title') Instance Name
+						.panel-body
+							input(type='text' id='instancename')
+				.row
+					div(class='panel panel-default')
+						.panel-heading
+							h2(class='panel-title') Feature
+						.panel-body
+							.radio
+								label 
+									input(type='radio' name='FeatureOptions' id='AnalysisServiceOption' value='AnalysisService') 
+									| Analaysis Service
+							.radio
+								label
+									input(type='radio' name='FeatureOptions' id='SqlEngineOption' value='SqlEngine' checked)
+									|  SQL Engine
+				.row
+					div(class='panel panel-default')
+						.panel-heading
+							h2(class='panel-title') Platform
+						.panel-body
+							.radio
+								label
+									input(type='radio' name='PlatformOptions' id='x86Option' value='x86')
+									|  x86
+							.radio
+								label
+									input(type='radio' name='PlatformOptions' id='x64Option' value='x64' checked)
+									|  x64
+				.row
+					div(class='panel panel-default')
+						.panel-heading
+							h2(class='panel-title') Version
+						.panel-body
+							.radio
+								label
+									input(type='radio' name='VersionOptions' id='Sql2008Option' value='Sql2008')
+									|  SQL 2008
+							.radio
+								label
+									input(type='radio' name='VersionOptions' id='Sql2008R2Option' value='Sql2008R2')
+									|  SQL 2008 R2
+							.radio
+								label
+									input(type='radio' name='VersionOptions' id='Sql2012Option' value='Sql2012')
+									|  SQL 2012
+							.radio
+								label
+									input(type='radio' name='VersionOptions' id='Sql2014Option' value='Sql2014')
+									|  SQL 2014
+							.radio
+								label
+									input(type='radio' name='VersionOptions' id='Sql2016Option' value='Sql2016' checked)
+									|  SQL 2016			
+			div(class='col-xs-3')
+				div(class='panel panel-default')
+					.panel-heading
+						h2(class='panel-title') Scenario
+					div(class='panel-body' id='scenariochecklist')
+						
 
-
-				div(class='col-xs-6 pull-right')
-					ul(class='nav nav-tabs')
-						li(class='active')
-							a(href='#') XEvent
-						li 
-							a(href='#') ProfilerTrace
-						li 
-							a(href='#') Perfmon
-						li 
-							a(href='#') Custom Diagnostics
-						li
-							a(href='#') Misc
-					div(class='row' id='capture')
-						div(class='panel panel-default col-xs-3')
+			div(class='col-xs-6 pull-right')
+				ul(class='nav nav-tabs')
+					li(class='active')
+						a(href='#') XEvent
+					li 
+						a(href='#') ProfilerTrace
+					li 
+						a(href='#') Perfmon
+					li 
+						a(href='#') Custom Diagnostics
+					li
+						a(href='#') Misc
+				div(class='row' id='capture')
+					div(class='panel panel-default col-xs-3')
+						.panel-heading
+							h2(class='panel-title') Capture
+						.panel-body
+							input(type='checkbox' id='iscapture')
+					div(class='panel panel-default col-xs-4')
+						.panel-heading
+							h2(class='panel-title') Max Size (MB)
+						.panel-body
+							input(type='text' id='maxsize')
+					div(class='panel panel-default col-xs-4')
+						.panel-heading
+							h2(class='panel-title') # Files
+						.panel-body
+							input(type='text' id='numberoffiles')
+				.row
+					div(id='xevent')
+						div(class='panel panel-default')
 							.panel-heading
-								h2(class='panel-title') Capture
+								h2(class='panel-title') XEvent
 							.panel-body
-								input(type='checkbox' id='iscapture')
-						div(class='panel panel-default col-xs-4')
-							.panel-heading
-								h2(class='panel-title') Max Size (MB)
-							.panel-body
-								input(type='text' id='maxsize')
-						div(class='panel panel-default col-xs-4')
-							.panel-heading
-								h2(class='panel-title') # Files
-							.panel-body
-								input(type='text' id='numberoffiles')
-					.row
-						div(id='xevent')
-							div(class='panel panel-default')
-								.panel-heading
-									h2(class='panel-title') XEvent
-								.panel-body
-									= ok
-						div(id='profiler' display='none')
-						div(id='perfmon' display='none')
-						div(id='customdiagnnostics' display='none')
-						div(id='misc' display='none')
+								= ok
+					div(id='profiler' display='none')
+					div(id='perfmon' display='none')
+					div(id='customdiagnnostics' display='none')
+					div(id='misc' display='none')
 
 					
 			
