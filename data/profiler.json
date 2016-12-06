@@ -1,0 +1,2033 @@
+[
+    {
+        "text": "Broker",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "Broker:Activation",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "163"
+            },
+            {
+                "text": "Broker:Connection",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "138"
+            },
+            {
+                "text": "Broker:Conversation",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "124"
+            },
+            {
+                "text": "Broker:Conversation Group",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "136"
+            },
+            {
+                "text": "Broker:Corrupted Message",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "161"
+            },
+            {
+                "text": "Broker:Forwarded Message Dropped",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "140"
+            },
+            {
+                "text": "Broker:Forwarded Message Sent",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "139"
+            },
+            {
+                "text": "Broker:Message Classify",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "141"
+            },
+            {
+                "text": "Broker:Message Undeliverable",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "160"
+            },
+            {
+                "text": "Broker:Mirrored Route State Changed",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "144"
+            },
+            {
+                "text": "Broker:Queue Disabled",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "143"
+            },
+            {
+                "text": "Broker:Remote Message Acknowledgement",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "149"
+            },
+            {
+                "text": "Broker:Transmission",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "142"
+            }
+        ]
+    },
+    {
+        "text": "CLR",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "Assembly Load",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "196"
+            }
+        ]
+    },
+    {
+        "text": "Cursors",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "CursorClose",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "78"
+            },
+            {
+                "text": "CursorExecute",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "74"
+            },
+            {
+                "text": "CursorImplicitConversion",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "76"
+            },
+            {
+                "text": "CursorOpen",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "53"
+            },
+            {
+                "text": "CursorPrepare",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "70"
+            },
+            {
+                "text": "CursorRecompile",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "75"
+            },
+            {
+                "text": "CursorUnprepare",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "77"
+            }
+        ]
+    },
+    {
+        "text": "Database",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "Data File Auto Grow",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "92"
+            },
+            {
+                "text": "Data File Auto Shrink",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "94"
+            },
+            {
+                "text": "Database Mirroring Connection",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "151"
+            },
+            {
+                "text": "Database Mirroring State Change",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "167"
+            },
+            {
+                "text": "Log File Auto Grow",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "93"
+            },
+            {
+                "text": "Log File Auto Shrink",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "95"
+            }
+        ]
+    },
+    {
+        "text": "Deprecation",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "Deprecation Announcement",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "125"
+            },
+            {
+                "text": "Deprecation Final Support",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "126"
+            }
+        ]
+    },
+    {
+        "text": "Errors and Warnings",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "Attention",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "16"
+            },
+            {
+                "text": "Background Job Error",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "193"
+            },
+            {
+                "text": "Bitmap Warning",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "212"
+            },
+            {
+                "text": "Blocked process report",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "137"
+            },
+            {
+                "text": "CPU threshold exceeded",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "214"
+            },
+            {
+                "text": "Database Suspect Data Page",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "213"
+            },
+            {
+                "text": "ErrorLog",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "22"
+            },
+            {
+                "text": "EventLog",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "21"
+            },
+            {
+                "text": "Exception",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "33"
+            },
+            {
+                "text": "Exchange Spill Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "127"
+            },
+            {
+                "text": "Execution Warnings",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "67"
+            },
+            {
+                "text": "Hash Warning",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "55"
+            },
+            {
+                "text": "Missing Column Statistics",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "79"
+            },
+            {
+                "text": "Missing Join Predicate",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "80"
+            },
+            {
+                "text": "Sort Warnings",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "69"
+            },
+            {
+                "text": "User Error Message",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "162"
+            }
+        ]
+    },
+    {
+        "text": "Full text",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "FT:Crawl Aborted",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "157"
+            },
+            {
+                "text": "FT:Crawl Started",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "155"
+            },
+            {
+                "text": "FT:Crawl Stopped",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "156"
+            }
+        ]
+    },
+    {
+        "text": "Locks",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "Deadlock graph",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "148"
+            },
+            {
+                "text": "Lock:Acquired",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "24"
+            },
+            {
+                "text": "Lock:Cancel",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "26"
+            },
+            {
+                "text": "Lock:Deadlock",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "25"
+            },
+            {
+                "text": "Lock:Deadlock Chain",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "59"
+            },
+            {
+                "text": "Lock:Escalation",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "60"
+            },
+            {
+                "text": "Lock:Released",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "23"
+            },
+            {
+                "text": "Lock:Timeout",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "27"
+            },
+            {
+                "text": "Lock:Timeout (timeout &gt; 0)",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "189"
+            }
+        ]
+    },
+    {
+        "text": "Objects",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "Object:Altered",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "164"
+            },
+            {
+                "text": "Object:Created",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "46"
+            },
+            {
+                "text": "Object:Deleted",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "47"
+            }
+        ]
+    },
+    {
+        "text": "OLEDB",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "OLEDB Call Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "119"
+            },
+            {
+                "text": "OLEDB DataRead Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "121"
+            },
+            {
+                "text": "OLEDB Errors",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "61"
+            },
+            {
+                "text": "OLEDB Provider Information",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "194"
+            },
+            {
+                "text": "OLEDB QueryInterface Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "120"
+            }
+        ]
+    },
+    {
+        "text": "Performance",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "Auto Stats",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "58"
+            },
+            {
+                "text": "Degree of Parallelism",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "28"
+            },
+            {
+                "text": "Performance statistics",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "165"
+            },
+            {
+                "text": "Plan Guide Successful",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "217"
+            },
+            {
+                "text": "Plan Guide Unsuccessful",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "218"
+            },
+            {
+                "text": "Showplan All",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "97"
+            },
+            {
+                "text": "Showplan All For Query Compile",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "169"
+            },
+            {
+                "text": "Showplan Statistics Profile",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "98"
+            },
+            {
+                "text": "Showplan Text",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "96"
+            },
+            {
+                "text": "Showplan Text (Unencoded)",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "68"
+            },
+            {
+                "text": "Showplan XML",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "122"
+            },
+            {
+                "text": "Showplan XML For Query Compile",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "168"
+            },
+            {
+                "text": "Showplan XML Statistics Profile",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "146"
+            },
+            {
+                "text": "SQL:FullTextQuery",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "123"
+            }
+        ]
+    },
+    {
+        "text": "Progress Report",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "Progress Report: Online Index Operation",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "190"
+            }
+        ]
+    },
+    {
+        "text": "Query Notifications",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "QN: Dynamics",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "202"
+            },
+            {
+                "text": "QN: Parameter table",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "200"
+            },
+            {
+                "text": "QN: Scenario",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "201"
+            },
+            {
+                "text": "QN: Subscription",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "199"
+            }
+        ]
+    },
+    {
+        "text": "Scans",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "Scan:Started",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "51"
+            },
+            {
+                "text": "Scan:Stopped",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "52"
+            }
+        ]
+    },
+    {
+        "text": "Security Audit",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "Audit Add DB User Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "109"
+            },
+            {
+                "text": "Audit Add Login to Server Role Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "108"
+            },
+            {
+                "text": "Audit Add Member to DB Role Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "110"
+            },
+            {
+                "text": "Audit Add Role Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "111"
+            },
+            {
+                "text": "Audit Addlogin Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "104"
+            },
+            {
+                "text": "Audit App Role Change Password Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "112"
+            },
+            {
+                "text": "Audit Backup/Restore Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "115"
+            },
+            {
+                "text": "Audit Broker Conversation",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "158"
+            },
+            {
+                "text": "Audit Broker Login",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "159"
+            },
+            {
+                "text": "Audit Change Audit Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "117"
+            },
+            {
+                "text": "Audit Change Database Owner",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "152"
+            },
+            {
+                "text": "Audit Database Management Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "128"
+            },
+            {
+                "text": "Audit Database Mirroring Login",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "154"
+            },
+            {
+                "text": "Audit Database Object Access Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "180"
+            },
+            {
+                "text": "Audit Database Object GDR Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "172"
+            },
+            {
+                "text": "Audit Database Object Management Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "129"
+            },
+            {
+                "text": "Audit Database Object Take Ownership Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "135"
+            },
+            {
+                "text": "Audit Database Operation Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "178"
+            },
+            {
+                "text": "Audit Database Principal Impersonation Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "133"
+            },
+            {
+                "text": "Audit Database Principal Management Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "130"
+            },
+            {
+                "text": "Audit Database Scope GDR Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "102"
+            },
+            {
+                "text": "Audit DBCC Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "116"
+            },
+            {
+                "text": "Audit Fulltext",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "235"
+            },
+            {
+                "text": "Audit Login",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "14"
+            },
+            {
+                "text": "Audit Login Change Password Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "107"
+            },
+            {
+                "text": "Audit Login Change Property Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "106"
+            },
+            {
+                "text": "Audit Login Failed",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "20"
+            },
+            {
+                "text": "Audit Login GDR Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "105"
+            },
+            {
+                "text": "Audit Logout",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "15"
+            },
+            {
+                "text": "Audit Object Derived Permission Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "118"
+            },
+            {
+                "text": "Audit Schema Object Access Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "114"
+            },
+            {
+                "text": "Audit Schema Object GDR Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "103"
+            },
+            {
+                "text": "Audit Schema Object Management Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "131"
+            },
+            {
+                "text": "Audit Schema Object Take Ownership Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "153"
+            },
+            {
+                "text": "Audit Server Alter Trace Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "175"
+            },
+            {
+                "text": "Audit Server Object GDR Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "171"
+            },
+            {
+                "text": "Audit Server Object Management Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "176"
+            },
+            {
+                "text": "Audit Server Object Take Ownership Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "134"
+            },
+            {
+                "text": "Audit Server Operation Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "173"
+            },
+            {
+                "text": "Audit Server Principal Impersonation Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "132"
+            },
+            {
+                "text": "Audit Server Principal Management Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "177"
+            },
+            {
+                "text": "Audit Server Scope GDR Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "170"
+            },
+            {
+                "text": "Audit Server Starts And Stops",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "18"
+            },
+            {
+                "text": "Audit Statement Permission Event",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "113"
+            }
+        ]
+    },
+    {
+        "text": "Server",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "Mount Tape",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "195"
+            },
+            {
+                "text": "Server Memory Change",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "81"
+            },
+            {
+                "text": "Trace File Close",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "150"
+            }
+        ]
+    },
+    {
+        "text": "Sessions",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "ExistingConnection",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "17"
+            },
+            {
+                "text": "PreConnect:Completed",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "216"
+            },
+            {
+                "text": "PreConnect:Starting",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "215"
+            }
+        ]
+    },
+    {
+        "text": "Stored Procedures",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "RPC Output Parameter",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "100"
+            },
+            {
+                "text": "RPC:Completed",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "10"
+            },
+            {
+                "text": "RPC:Starting",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "11"
+            },
+            {
+                "text": "SP:CacheHit",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "38"
+            },
+            {
+                "text": "SP:CacheInsert",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "35"
+            },
+            {
+                "text": "SP:CacheMiss",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "34"
+            },
+            {
+                "text": "SP:CacheRemove",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "36"
+            },
+            {
+                "text": "SP:Completed",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "43"
+            },
+            {
+                "text": "SP:Recompile",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "37"
+            },
+            {
+                "text": "SP:Starting",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "42"
+            },
+            {
+                "text": "SP:StmtCompleted",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "45"
+            },
+            {
+                "text": "SP:StmtStarting",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "44"
+            }
+        ]
+    },
+    {
+        "text": "Transactions",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "DTCTransaction",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "19"
+            },
+            {
+                "text": "SQLTransaction",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "50"
+            },
+            {
+                "text": "TM: Begin Tran completed",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "182"
+            },
+            {
+                "text": "TM: Begin Tran starting",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "181"
+            },
+            {
+                "text": "TM: Commit Tran completed",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "186"
+            },
+            {
+                "text": "TM: Commit Tran starting",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "185"
+            },
+            {
+                "text": "TM: Promote Tran completed",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "184"
+            },
+            {
+                "text": "TM: Promote Tran starting",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "183"
+            },
+            {
+                "text": "TM: Rollback Tran completed",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "188"
+            },
+            {
+                "text": "TM: Rollback Tran starting",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "187"
+            },
+            {
+                "text": "TM: Save Tran completed",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "192"
+            },
+            {
+                "text": "TM: Save Tran starting",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "191"
+            },
+            {
+                "text": "TransactionLog",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "54"
+            }
+        ]
+    },
+    {
+        "text": "TSQL",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "Exec Prepared SQL",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "72"
+            },
+            {
+                "text": "Prepare SQL",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "71"
+            },
+            {
+                "text": "SQL:BatchCompleted",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "12"
+            },
+            {
+                "text": "SQL:BatchStarting",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "13"
+            },
+            {
+                "text": "SQL:StmtCompleted",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "41"
+            },
+            {
+                "text": "SQL:StmtRecompile",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "166"
+            },
+            {
+                "text": "SQL:StmtStarting",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "40"
+            },
+            {
+                "text": "Unprepare SQL",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "73"
+            },
+            {
+                "text": "XQuery Static Type",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "198"
+            }
+        ]
+    },
+    {
+        "text": "User configurable",
+        "selectable": true,
+        "state": {
+            "checked": false,
+            "expanded": false,
+            "disabled": false
+        },
+        "nodes": [
+            {
+                "text": "UserConfigurable:0",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "82"
+            },
+            {
+                "text": "UserConfigurable:1",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "83"
+            },
+            {
+                "\n    text": "UserConfigurable:2",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "84"
+            },
+            {
+                "text": "UserConfigurable:3",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "85"
+            },
+            {
+                "text": "UserConfigurable:4",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "86"
+            },
+            {
+                "text": "UserConfigurable:5",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "87"
+            },
+            {
+                "text": "UserConfigurable:6",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "88"
+            },
+            {
+                "text": "UserConfigurable:7",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "89"
+            },
+            {
+                "text": "UserConfigurable:8",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "90"
+            },
+            {
+                "text": "UserConfigurable:9",
+                "selectable": true,
+                "state": {
+                    "checked": false,
+                    "expanded": false,
+                    "disabled": false
+                },
+                "tags": "91"
+            }
+        ]
+    }
+]

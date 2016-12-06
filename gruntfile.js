@@ -10,6 +10,26 @@ module.exports = function(grunt) {
       	}
       }
   },
+  clean: ["public/stylesheets/application.css", "public/scripts/*.*"],
+  copy: {
+    main: {
+      files: [
+      {
+        src: "src/*.js",
+        dest: "public/scripts/",
+        expand: true,
+        filter: "isFile",
+        flatten: true
+      },
+      {
+        src: "node_modules/bootstrap-treeview/dist/*.js",
+        dest: "public/scripts/",
+        expand: true,
+        filter: "isFile",
+        flatten: true
+      }]
+    }
+  },
   watch: {
   	source: {
   		files: ['sass/**/*.scss', 'views/**/*.pug'],
@@ -21,6 +41,9 @@ module.exports = function(grunt) {
   	}
 });
   grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.registerTask('default', ['sass']);
+  grunt.registerTask("all", ["clean", "copy", "sass", "watch"]);
+  grunt.registerTask('default', ['all']);
 };

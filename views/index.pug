@@ -9,13 +9,15 @@ block content
 						.panel-heading
 							h2(class='panel-title') Machine Name
 						.panel-body
-							input(type='text' id='machinename')
+							div(class=' input-group input-group-sm')
+								input(class='form-control' type='text' id='machinename')
 				.row
 					div(class='panel panel-default')
 						.panel-heading
 							h2(class='panel-title') Instance Name
 						.panel-body
-							input(type='text' id='instancename')
+							div(class=' input-group input-group-sm')
+								input(class='form-control' type='text' id='instancename')
 				.row
 					div(class='panel panel-default')
 						.panel-heading
@@ -75,44 +77,139 @@ block content
 						
 
 			div(class='col-xs-6 pull-right')
-				ul(class='nav nav-tabs')
-					li(class='active')
-						a(href='#') XEvent
-					li 
-						a(href='#') ProfilerTrace
-					li 
-						a(href='#') Perfmon
-					li 
-						a(href='#') Custom Diagnostics
-					li
-						a(href='#') Misc
-				div(class='row' id='capture')
-					div(class='panel panel-default col-xs-3')
-						.panel-heading
-							h2(class='panel-title') Capture
-						.panel-body
-							input(type='checkbox' id='iscapture')
-					div(class='panel panel-default col-xs-4')
-						.panel-heading
-							h2(class='panel-title') Max Size (MB)
-						.panel-body
-							input(type='text' id='maxsize')
-					div(class='panel panel-default col-xs-4')
-						.panel-heading
-							h2(class='panel-title') # Files
-						.panel-body
-							input(type='text' id='numberoffiles')
-				.row
-					div(id='xevent')
-						div(class='panel panel-default')
-							.panel-heading
-								h2(class='panel-title') XEvent
-							.panel-body
-								= ok
-					div(id='profiler' display='none')
-					div(id='perfmon' display='none')
-					div(id='customdiagnnostics' display='none')
-					div(id='misc' display='none')
+				ul(class='nav nav-tabs' role='tablist')
+					li(role='presentation' class='active')
+						a(href='#xevent' aria-controls='xevent' role='tab' data-toggle='tab') XEvent
+					li(role='presentation' )
+						a(href='#profiler' aria-controls='profiler' role='tab' data-toggle='tab') ProfilerTrace
+					li(role='presentation' ) 
+						a(href='#perfmon' aria-controls='perfmon' role='tab' data-toggle='tab') Perfmon
+					li(role='presentation' )
+						a(href='#custom' aria-controls='custom' role='tab' data-toggle='tab') Custom Diagnostics
+					li(role='presentation' )
+						a(href='#misc' aria-controls='misc' role='tab' data-toggle='tab') Misc
+				.tab-content
+					div(class='tab-pane active col-xs-12' role='tabepanel' id='xevent')
+						div(class='row row-no-padding' id='xeventdetails')
+							.col-xs-4
+								div(class='panel panel-default')
+									div(class='panel-heading')
+										h2(class='panel-title') Capture Xevent
+									.panel-body
+										input(type='checkbox' id='xeventcapture')
+							.col-xs-4
+								div(class='panel panel-default')
+									.panel-heading
+										h2(class='panel-title') Max Size (MB)
+									.panel-body
+										div(class='input-group input-group-sm')
+											input(class='form-control' type='text' id='xeventmaxsize')
+							.col-xs-4
+								div(class='panel panel-default')
+									.panel-heading
+										h2(class='panel-title') # Files
+									.panel-body
+										div(class='input-group input-group-sm')
+											input(class='form-control' type='text' id='xeventfilecount')
+
+						div(class='row' id='xeventcounters')
+							div(class='panel panel-default')
+								.panel-heading
+									h2(class='panel-title') XEvent
+								div(class='panel-body' id='xeventlist')
+									
+
+					div(class='tab-pane col-xs-12' role='tabepanel' id='profiler')
+						div(class='row row-no-padding' id='profilerdetails')
+							.col-xs-4
+								div(class='panel panel-default')
+									.panel-heading
+										h2(class='panel-title') Capture Trace
+									.panel-body
+										input(type='checkbox' id='profilercapture')
+							.col-xs-4
+								div(class='panel panel-default')
+									.panel-heading
+										h2(class='panel-title') Max Size (MB)
+									.panel-body
+										div(class='input-group input-group-sm')
+											input(class='form-control' type='text' id='profilermaxsize')
+							.col-xs-4
+								div(class='panel panel-default')
+									.panel-heading
+										h2(class='panel-title') # Files
+									.panel-body
+										div(class='input-group input-group-sm')
+											input(class='form-control' type='text' id='profilerfilecount')
+
+						div(class='row' id='profilertraceevents')
+							div(class='panel panel-default')
+								.panel-heading
+									h2(class='panel-title') Profiler
+								.panel-body
+									p Profiler trace events go here
+					div(class='tab-pane col-xs-12' role='tabepanel' id='perfmon')
+						div(class='row row-no-padding' id='perfmondetails')
+							.col-xs-4
+								div(class='panel panel-default')
+									.panel-heading
+										h2(class='panel-title') Capture Perfmon
+									.panel-body
+										input(type='checkbox' id='perfmoncapture')
+							.col-xs-4
+								div(class='panel panel-default')
+									.panel-heading
+										h2(class='panel-title') Max Size (MB)
+									.panel-body
+										div(class='input-group input-group-sm')
+											input(class='form-control' type='text' id='perfmonmaxsize')
+							.col-xs-4
+								div(class='panel panel-default')
+									.panel-heading
+										h2(class='panel-title') # Files
+									.panel-body
+										div(class='input-group input-group-sm')
+											input(class='form-control' type='text' id='perfmonfilecount')
+						div(class='row' id='perfmoncounters')
+							div(class='panel panel-default')
+								.panel-heading
+									h2(class='panel-title') Perfmon
+								.panel-body
+									p Perfmon counters go here
+					div(class='tab-pane col-xs-12' role='tabepanel' id='custom')
+						div(class='row' id='customdiag')
+							div(class='panel panel-default')
+								.panel-heading
+									h2(class='panel-title') Custom Diagnostics
+								.panel-body
+									p Customer Diagnostic list goes here
+					div(class='tab-pane col-xs-12' role='tabepanel' id='misc')
+						div(clas='row row-no-padding')
+							div(class='panel panel-default')
+								.panel-heading
+									h2(class='panel-title') Collect Event Logs
+								.panel-body
+									.col-xs-6
+										label
+											input(type='checkbox' id='startuplogs')
+											| Startup								
+									.col-xs-6
+										label
+											input(type='checkbox' id='shutdownlogs')
+											| Shutdown
+						div(class='row row-no-padding')
+							div(class='panel panel-default')
+								.panel-heading
+									h2(class='panel-title') Collect SQLDiag DMVs
+								.panel-body
+									.col-xs-6
+										label
+											input(type='checkbox' id='startupdmvs')
+											| Startup
+									.col-xs-6
+										label
+											input(type='checkbox' id='shutdowndmvs')
+											| Shutdown
 
 					
 			
