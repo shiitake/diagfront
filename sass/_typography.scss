@@ -63,3 +63,25 @@ a {
     padding-right: 0 !important;
   }
 }
+
+.equal, .equal > div[class*='col-'] {  
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex:1 1 auto;
+}
+
+.center-check-box {
+    text-align: middle;
+}
+
+div#custom, div#misc {
+  padding-left: 0;
+  padding-right: 0;  
+  div > div.panel {
+  margin-left: 15px;
+  margin-right: 15px;
+  }
+}

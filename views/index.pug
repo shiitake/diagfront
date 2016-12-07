@@ -85,32 +85,28 @@ block content
 					li(role='presentation' ) 
 						a(href='#perfmon' aria-controls='perfmon' role='tab' data-toggle='tab') Perfmon
 					li(role='presentation' )
-						a(href='#custom' aria-controls='custom' role='tab' data-toggle='tab') Custom Diagnostics
+						a(href='#custom' aria-controls='custom' role='tab' data-toggle='tab') Custom
 					li(role='presentation' )
 						a(href='#misc' aria-controls='misc' role='tab' data-toggle='tab') Misc
 				.tab-content
-					div(class='tab-pane active col-xs-12' role='tabepanel' id='xevent')
-						div(class='row row-no-padding' id='xeventdetails')
-							.col-xs-4
-								div(class='panel panel-default')
-									div(class='panel-heading')
-										h2(class='panel-title') Capture Xevent
-									.panel-body
-										input(type='checkbox' id='xeventcapture')
-							.col-xs-4
-								div(class='panel panel-default')
-									.panel-heading
-										h2(class='panel-title') Max Size (MB)
-									.panel-body
-										div(class='input-group input-group-sm')
-											input(class='form-control' type='text' id='xeventmaxsize')
-							.col-xs-4
-								div(class='panel panel-default')
-									.panel-heading
-										h2(class='panel-title') # Files
-									.panel-body
-										div(class='input-group input-group-sm')
-											input(class='form-control' type='text' id='xeventfilecount')
+					div(class='tab-pane active col-xs-12' role='tabpanel' id='xevent')
+						row(class='row row-no-padding' id='xeventdetails')
+							.table-width
+								table(class='table table-bordered')
+									tr.active
+										th Capture Xevent
+										th Max Size (MB)
+										th # Files
+									tr
+										td
+											input(type='checkbox' id='xeventcapture')
+										td 
+											div(class='input-group input-group-sm')
+												input(class='form-control' type='text' id='xeventmaxsize')
+										td
+											div(class='input-group input-group-sm')
+												input(class='form-control' type='text' id='xeventfilecount')
+
 
 						div(class='row' id='xeventcounters')
 							div(class='panel panel-default')
@@ -119,28 +115,23 @@ block content
 								div(class='panel-body' id='xeventlist')
 									
 
-					div(class='tab-pane col-xs-12' role='tabepanel' id='profiler')
-						div(class='row row-no-padding' id='profilerdetails')
-							.col-xs-4
-								div(class='panel panel-default')
-									.panel-heading
-										h2(class='panel-title') Capture Trace
-									.panel-body
-										input(type='checkbox' id='profilercapture')
-							.col-xs-4
-								div(class='panel panel-default')
-									.panel-heading
-										h2(class='panel-title') Max Size (MB)
-									.panel-body
-										div(class='input-group input-group-sm')
-											input(class='form-control' type='text' id='profilermaxsize')
-							.col-xs-4
-								div(class='panel panel-default')
-									.panel-heading
-										h2(class='panel-title') # Files
-									.panel-body
-										div(class='input-group input-group-sm')
-											input(class='form-control' type='text' id='profilerfilecount')
+					div(class='tab-pane col-xs-12' role='tabpanel' id='profiler')
+						row(class='row row-no-padding' id='profilerdetails')
+							.table-width
+								table(class='table table-bordered')
+									tr.active
+										th Capture Xevent
+										th Max Size (MB)
+										th # Files
+									tr
+										td
+											input(type='checkbox' id='profilercapture')
+										td
+											div(class='input-group input-group-sm')
+												input(class='form-control' type='text' id='profilermaxsize')
+										td
+											div(class='input-group input-group-sm')
+												input(class='form-control' type='text' id='profilerfilecount')
 
 						div(class='row' id='profilertraceevents')
 							div(class='panel panel-default')
@@ -148,43 +139,38 @@ block content
 									h2(class='panel-title') Profiler
 								.panel-body
 									p Profiler trace events go here
-					div(class='tab-pane col-xs-12' role='tabepanel' id='perfmon')
-						div(class='row row-no-padding' id='perfmondetails')
-							.col-xs-4
-								div(class='panel panel-default')
-									.panel-heading
-										h2(class='panel-title') Capture Perfmon
-									.panel-body
-										input(type='checkbox' id='perfmoncapture')
-							.col-xs-4
-								div(class='panel panel-default')
-									.panel-heading
-										h2(class='panel-title') Max Size (MB)
-									.panel-body
-										div(class='input-group input-group-sm')
-											input(class='form-control' type='text' id='perfmonmaxsize')
-							.col-xs-4
-								div(class='panel panel-default')
-									.panel-heading
-										h2(class='panel-title') # Files
-									.panel-body
-										div(class='input-group input-group-sm')
-											input(class='form-control' type='text' id='perfmonfilecount')
+					div(class='tab-pane col-xs-12' role='tabpanel' id='perfmon')
+						row(class='row row-no-padding' id='perfmondetails')
+							.table-width
+								table(class='table table-bordered')
+									tr.active
+										th Capture Xevent
+										th Max Size (MB)
+										th # Files
+									tr
+										td
+											input(type='checkbox' id='perfmoncapture')
+										td
+											div(class='input-group input-group-sm')
+												input(class='form-control' type='text' id='perfmonmaxsize')
+										td
+											div(class='input-group input-group-sm')
+												input(class='form-control' type='text' id='perfmonfilecount')
 						div(class='row' id='perfmoncounters')
 							div(class='panel panel-default')
 								.panel-heading
 									h2(class='panel-title') Perfmon
 								.panel-body
 									p Perfmon counters go here
-					div(class='tab-pane col-xs-12' role='tabepanel' id='custom')
-						div(class='row' id='customdiag')
+					div(class='tab-pane col-xs-12' role='tabpanel' id='custom')
+						row(class='row row-no-padding' id='customdiag')
 							div(class='panel panel-default')
 								.panel-heading
 									h2(class='panel-title') Custom Diagnostics
 								.panel-body
 									p Customer Diagnostic list goes here
-					div(class='tab-pane col-xs-12' role='tabepanel' id='misc')
-						div(clas='row row-no-padding')
+					div(class='tab-pane col-xs-12' role='tabpanel' id='misc')
+						row(class='row row-no-padding')
 							div(class='panel panel-default')
 								.panel-heading
 									h2(class='panel-title') Collect Event Logs
