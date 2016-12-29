@@ -108,7 +108,7 @@ IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
 :: 4. Install grunt
 IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
 pushd "%DEPLOYMENT_TARGET%"
-  call :ExecuteCmd !NPM_CMD! install -g grunt-cli
+  call :ExecuteCmd !NPM_CMD! install grunt-cli
   IF !ERRORLEVEL! NEQ 0 goto error
   popd
 )
