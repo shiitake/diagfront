@@ -12,6 +12,7 @@
   "dependencies": {
     "body-parser": "~1.8.1",
     "bootstrap-treeview": "^1.2.0",
+    "bower": "^1.8.0",         
     "express": "^4.14.0",
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
@@ -21,8 +22,5 @@
     "jquery": "^3.1.1",
     "node-bourbon": "^4.2.8",
     "pug": "^2.0.0-beta6"
-  },
-  "devDependencies": {
-    "bower": "^1.8.0"        
   }
 }
