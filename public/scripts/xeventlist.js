@@ -9,15 +9,23 @@ function getXeventList(checklist, callback){
 		}
 	});
 };
-
+/*
+function populateList(id, data){
+	var xevents = data;
+	var xeventList = [];
+	for (xevent in xevents){
+		//get child events
+		var childEvents = xevents[xevent].["child events"];
+		var children = [];
+		for (child in childEvents){
+			children.push(childEvents[child].name);
+		}
+		xeventList.push({name: xevents[xevent].name, events: children});
+	}	
+}*/
 
 function buildTree(id, data){
-	$(id).treeview({
-		data: data, 
-		multiSelect: true, 
-		selectedIcon: "glyphicon glyphicon-check", 
-		nodeIcon: "glyphicon glyphicon-stop"
-	});
+	$(id).treeview({data: data});
 }
 
 

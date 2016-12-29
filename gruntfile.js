@@ -46,4 +46,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.registerTask("all", ["clean", "copy", "sass", "watch"]);
   grunt.registerTask('default', ['all']);
+  grunt.registerTask('prod', ["clean", "copy", "sass"]);
 };
