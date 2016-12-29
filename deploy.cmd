@@ -106,20 +106,13 @@ IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
 )
 
 :: 4. Install grunt
-IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
-pushd "%DEPLOYMENT_TARGET%"
-  call :ExecuteCmd !NPM_CMD! install grunt grunt-cli
-  IF !ERRORLEVEL! NEQ 0 goto error
-  popd
+echo Installing grunt
+IF EXIST "%DEPLOYMENT_TARGET%\gruntfile.js" (
+  call :ExecuteCmd !NPM_CMD! install grunt-cli
+  call .\node_modules\.bin\grunt --no-color prod
+  IF !ERRORLEVEL! NEQ 0 goto error  
 )
 
-:: 5. Run grunt tasks
-IF EXIST "%DEPLOYMENT_TARGET%\gruntfile.js" (
-  pushd "%DEPLOYMENT_TARGET"
-  call :ExecuteCmd grunt prod
-  IF !ERRORLEVEL! NEQ 0 goto error
-  popd
-)
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 goto end
 
