@@ -100,7 +100,7 @@ call :SelectNodeVersion
 :: 3. Install npm packages
 IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
   pushd "%DEPLOYMENT_TARGET%"
-  call :ExecuteCmd !NPM_CMD! install --production
+  call :ExecuteCmd !NPM_CMD! install
   IF !ERRORLEVEL! NEQ 0 goto error
   popd
 )
@@ -108,7 +108,7 @@ IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
 :: 4. Install grunt
 IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
 pushd "%DEPLOYMENT_TARGET%"
-  call :ExecuteCmd !NPM_CMD! install grunt-cli
+  call :ExecuteCmd !NPM_CMD! install grunt grunt-cli
   IF !ERRORLEVEL! NEQ 0 goto error
   popd
 )
