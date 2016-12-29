@@ -104,7 +104,16 @@ IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
   IF !ERRORLEVEL! NEQ 0 goto error
   popd
 )
-:: 4. Run grunt tasks
+
+:: 4. Install grunt
+IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
+pushd "%DEPLOYMENT_TARGET%"
+  call :ExecuteCmd !NPM_CMD! install grunt
+  IF !ERRORLEVEL! NEQ 0 goto error
+  popd
+)
+
+:: 5. Run grunt tasks
 IF EXIST "%DEPLOYMENT_TARGET%\gruntfile.js" (
   pushd "%DEPLOYMENT_TARGET"
   call :ExecuteCmd grunt prod
