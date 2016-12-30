@@ -8,6 +8,7 @@ var scenarios = require('./routes/scenarios');
 var xevents = require('./routes/xevents');
 var perfmon = require('./routes/perfmon');
 var profiler = require('./routes/profiler');
+var config = require('./config/config');
 
 // views as directory for all template files
 app.set('views', path.join(__dirname, 'views'));
@@ -28,6 +29,5 @@ app.use('/perfmon', perfmon);
 app.use('/profiler', profiler);
 
 // Set server port
-var port = process.env.PORT || 4000;
-app.listen(port);
-console.log('server is running on port: ' + port);
+app.listen(config.port);
+console.log('server is running on port: ' + config.port);
