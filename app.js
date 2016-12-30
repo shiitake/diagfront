@@ -28,5 +28,6 @@ app.use('/perfmon', perfmon);
 app.use('/profiler', profiler);
 
 // Set server port
-app.listen(4000);
-console.log('server is running');
+var port = process.env.PORT || 4000;
+app.listen(port);
+console.log('server is running on port: ' + port);
