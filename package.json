@@ -1,6 +1,9 @@
 {
   "name": "diagfront",
   "version": "1.0.0",
+  "engines":{
+      "node": "6.9.1"
+  },
   "description": "Diagmanager Front-end",
   "main": "app.js",
   "scripts": {
