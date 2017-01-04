@@ -109,7 +109,8 @@ IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
 echo Installing grunt
 IF EXIST "%DEPLOYMENT_TARGET%\gruntfile.js" (
   pushd "%DEPLOYMENT_TARGET%"
-  call :ExecuteCmd !NPM_CMD! install grunt-cli
+  call :ExecuteCmd !NPM_CMD! install grunt-ci
+  echo Running grunt
   call :ExecuteCmd .\node_modules\.bin\grunt --no-color prod
   IF !ERRORLEVEL! NEQ 0 goto error  
   popd
